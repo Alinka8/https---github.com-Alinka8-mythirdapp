@@ -1,16 +1,15 @@
+import CustomButton from "./components/customButton/CustomButton";
 
+import "./App.style.css";
 
-import DefaultExport from './components/defaultExport/DefaultExport';
-import { HeaderExport, NamedExport } from './components/namedExport/NamedExport';
-
-function App() {
+function App(){
   return (
-    <>
-    <DefaultExport/>
-    <NamedExport/>
-    <HeaderExport/>
-    </>
-  );
+    <div classname="App">
+      <h1>Third App</h1>
+      <CustomButton/>
+      <CustomButton/>
+    </div>
+  )
 }
 
 export default App;
